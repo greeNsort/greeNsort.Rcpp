@@ -1,0 +1,7 @@
+CXX_STD = CXX17
+
+# -m64 (recommended for Pdqsort but rather slower hence not used)
+# -pthread or -fopenmp  (needed for parallel IPS4o)
+# -mcx16 or -march=native or -latomic (needed to avoid undefined symbol __atomic_fetch_add_16 for parallel IPS4o)
+PKG_CXXFLAGS=-O3 -march=native -pthread
+PKG_LIBS=-latomic

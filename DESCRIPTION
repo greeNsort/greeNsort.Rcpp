@@ -1,0 +1,20 @@
+Package: greeNsortRcpp
+Title: greeNsort extension interfacing C++ code
+Version: 1.0
+Date: 2024-01-21
+Author: Jens Oehlschlägel
+Maintainer: Dr. Jens Oehlschlägel <jens.oehlschlaegel@greeNsort.org>
+Description: This package provides algorithms written in C++, 
+  namely the Timsort implementation of Timothy Van Slyke.
+Depends: R (>= 4.3.2)
+Imports: Rcpp
+Suggests:
+    knitr,
+    rmarkdown, 
+    roxygen2
+LinkingTo: Rcpp
+License: file LICENSE
+Encoding: UTF-8
+NeedsCompilation: yes
+Packaged: 2019-08-24 21:49:30.502777 UTC; edd
+RoxygenNote: 7.2.3

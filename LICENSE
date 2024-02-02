@@ -1,0 +1,20 @@
+(c) 2010 - 2024 Dr. Jens Oehlschlägel
+
+This packages is under the GPL-3 clause.
+
+The included algorithms have their own copyrights and licences, here is a summary
+
+IPS4o: BSD-2
+Learnsort: GPL-3
+Psqsort: ZLIB
+Powersort: MIT
+  gfxTimsort: MIT
+Skasort: Boost 1.0
+xx
+
+For details see the sources under /src/
+
+Note that that the greeNsort(R) brand and logo are protected trademarks of Dr. Jens Oehlschlägel and must not be used without permission.
+Note that there is a self-certification process which allows to use the "grey" logo if the self-certification conditions are fulfilled.
+
+Errors and omissions excepted
