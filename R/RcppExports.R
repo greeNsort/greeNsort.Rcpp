@@ -2,106 +2,106 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 IPS4o_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_IPS4o_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_IPS4o_insitu`, orig)
 }
 
 IPS4o_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_IPS4o_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_IPS4o_exsitu`, orig)
 }
 
 IS4o_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_IS4o_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_IS4o_insitu`, orig)
 }
 
 IS4o_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_IS4o_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_IS4o_exsitu`, orig)
 }
 
 Learnsort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Learnsort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Learnsort_insitu`, orig)
 }
 
 Learnsort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Learnsort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Learnsort_exsitu`, orig)
 }
 
 Pdqsort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Pdqsort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Pdqsort_insitu`, orig)
 }
 
 Pdqsort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Pdqsort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Pdqsort_exsitu`, orig)
 }
 
 PdqsortB_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_PdqsortB_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_PdqsortB_insitu`, orig)
 }
 
 PdqsortB_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_PdqsortB_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_PdqsortB_exsitu`, orig)
 }
 
 gfxTimsort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_gfxTimsort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_gfxTimsort_insitu`, orig)
 }
 
 gfxTimsort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_gfxTimsort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_gfxTimsort_exsitu`, orig)
 }
 
 Peeksort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Peeksort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Peeksort_insitu`, orig)
 }
 
 Peeksort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Peeksort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Peeksort_exsitu`, orig)
 }
 
 Powersort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Powersort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Powersort_insitu`, orig)
 }
 
 Powersort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Powersort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Powersort_exsitu`, orig)
 }
 
 Powersort4_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Powersort4_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Powersort4_insitu`, orig)
 }
 
 Powersort4_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Powersort4_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Powersort4_exsitu`, orig)
 }
 
 Powersort4s_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Powersort4s_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Powersort4s_insitu`, orig)
 }
 
 Powersort4s_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Powersort4s_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Powersort4s_exsitu`, orig)
 }
 
 Skasort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Skasort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Skasort_insitu`, orig)
 }
 
 Skasort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Skasort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Skasort_exsitu`, orig)
 }
 
 ISkasort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_ISkasort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_ISkasort_insitu`, orig)
 }
 
 ISkasort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_ISkasort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_ISkasort_exsitu`, orig)
 }
 
 Timsort_insitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Timsort_insitu`, orig)
+    .Call(`_greeNsort_Rcpp_Timsort_insitu`, orig)
 }
 
 Timsort_exsitu <- function(orig) {
-    .Call(`_greeNsortRcpp_Timsort_exsitu`, orig)
+    .Call(`_greeNsort_Rcpp_Timsort_exsitu`, orig)
 }
 

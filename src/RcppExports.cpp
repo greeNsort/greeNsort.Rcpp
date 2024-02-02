@@ -12,7 +12,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // IPS4o_insitu
 List IPS4o_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_IPS4o_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_IPS4o_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -23,7 +23,7 @@ END_RCPP
 }
 // IPS4o_exsitu
 List IPS4o_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_IPS4o_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_IPS4o_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -34,7 +34,7 @@ END_RCPP
 }
 // IS4o_insitu
 List IS4o_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_IS4o_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_IS4o_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -45,7 +45,7 @@ END_RCPP
 }
 // IS4o_exsitu
 List IS4o_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_IS4o_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_IS4o_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -56,7 +56,7 @@ END_RCPP
 }
 // Learnsort_insitu
 List Learnsort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Learnsort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Learnsort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -67,7 +67,7 @@ END_RCPP
 }
 // Learnsort_exsitu
 List Learnsort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Learnsort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Learnsort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -78,7 +78,7 @@ END_RCPP
 }
 // Pdqsort_insitu
 List Pdqsort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Pdqsort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Pdqsort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -89,7 +89,7 @@ END_RCPP
 }
 // Pdqsort_exsitu
 List Pdqsort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Pdqsort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Pdqsort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -100,7 +100,7 @@ END_RCPP
 }
 // PdqsortB_insitu
 List PdqsortB_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_PdqsortB_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_PdqsortB_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -111,7 +111,7 @@ END_RCPP
 }
 // PdqsortB_exsitu
 List PdqsortB_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_PdqsortB_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_PdqsortB_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -122,7 +122,7 @@ END_RCPP
 }
 // gfxTimsort_insitu
 List gfxTimsort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_gfxTimsort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_gfxTimsort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -133,7 +133,7 @@ END_RCPP
 }
 // gfxTimsort_exsitu
 List gfxTimsort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_gfxTimsort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_gfxTimsort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -144,7 +144,7 @@ END_RCPP
 }
 // Peeksort_insitu
 List Peeksort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Peeksort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Peeksort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -155,7 +155,7 @@ END_RCPP
 }
 // Peeksort_exsitu
 List Peeksort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Peeksort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Peeksort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -166,7 +166,7 @@ END_RCPP
 }
 // Powersort_insitu
 List Powersort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Powersort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Powersort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -177,7 +177,7 @@ END_RCPP
 }
 // Powersort_exsitu
 List Powersort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Powersort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Powersort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -188,7 +188,7 @@ END_RCPP
 }
 // Powersort4_insitu
 List Powersort4_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Powersort4_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Powersort4_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -199,7 +199,7 @@ END_RCPP
 }
 // Powersort4_exsitu
 List Powersort4_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Powersort4_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Powersort4_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -210,7 +210,7 @@ END_RCPP
 }
 // Powersort4s_insitu
 List Powersort4s_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Powersort4s_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Powersort4s_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -221,7 +221,7 @@ END_RCPP
 }
 // Powersort4s_exsitu
 List Powersort4s_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Powersort4s_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Powersort4s_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -232,7 +232,7 @@ END_RCPP
 }
 // Skasort_insitu
 List Skasort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Skasort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Skasort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -243,7 +243,7 @@ END_RCPP
 }
 // Skasort_exsitu
 List Skasort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Skasort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Skasort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -254,7 +254,7 @@ END_RCPP
 }
 // ISkasort_insitu
 List ISkasort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_ISkasort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_ISkasort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -265,7 +265,7 @@ END_RCPP
 }
 // ISkasort_exsitu
 List ISkasort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_ISkasort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_ISkasort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -276,7 +276,7 @@ END_RCPP
 }
 // Timsort_insitu
 List Timsort_insitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Timsort_insitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Timsort_insitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -287,7 +287,7 @@ END_RCPP
 }
 // Timsort_exsitu
 List Timsort_exsitu(NumericVector& orig);
-RcppExport SEXP _greeNsortRcpp_Timsort_exsitu(SEXP origSEXP) {
+RcppExport SEXP _greeNsort_Rcpp_Timsort_exsitu(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -298,36 +298,36 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_greeNsortRcpp_IPS4o_insitu", (DL_FUNC) &_greeNsortRcpp_IPS4o_insitu, 1},
-    {"_greeNsortRcpp_IPS4o_exsitu", (DL_FUNC) &_greeNsortRcpp_IPS4o_exsitu, 1},
-    {"_greeNsortRcpp_IS4o_insitu", (DL_FUNC) &_greeNsortRcpp_IS4o_insitu, 1},
-    {"_greeNsortRcpp_IS4o_exsitu", (DL_FUNC) &_greeNsortRcpp_IS4o_exsitu, 1},
-    {"_greeNsortRcpp_Learnsort_insitu", (DL_FUNC) &_greeNsortRcpp_Learnsort_insitu, 1},
-    {"_greeNsortRcpp_Learnsort_exsitu", (DL_FUNC) &_greeNsortRcpp_Learnsort_exsitu, 1},
-    {"_greeNsortRcpp_Pdqsort_insitu", (DL_FUNC) &_greeNsortRcpp_Pdqsort_insitu, 1},
-    {"_greeNsortRcpp_Pdqsort_exsitu", (DL_FUNC) &_greeNsortRcpp_Pdqsort_exsitu, 1},
-    {"_greeNsortRcpp_PdqsortB_insitu", (DL_FUNC) &_greeNsortRcpp_PdqsortB_insitu, 1},
-    {"_greeNsortRcpp_PdqsortB_exsitu", (DL_FUNC) &_greeNsortRcpp_PdqsortB_exsitu, 1},
-    {"_greeNsortRcpp_gfxTimsort_insitu", (DL_FUNC) &_greeNsortRcpp_gfxTimsort_insitu, 1},
-    {"_greeNsortRcpp_gfxTimsort_exsitu", (DL_FUNC) &_greeNsortRcpp_gfxTimsort_exsitu, 1},
-    {"_greeNsortRcpp_Peeksort_insitu", (DL_FUNC) &_greeNsortRcpp_Peeksort_insitu, 1},
-    {"_greeNsortRcpp_Peeksort_exsitu", (DL_FUNC) &_greeNsortRcpp_Peeksort_exsitu, 1},
-    {"_greeNsortRcpp_Powersort_insitu", (DL_FUNC) &_greeNsortRcpp_Powersort_insitu, 1},
-    {"_greeNsortRcpp_Powersort_exsitu", (DL_FUNC) &_greeNsortRcpp_Powersort_exsitu, 1},
-    {"_greeNsortRcpp_Powersort4_insitu", (DL_FUNC) &_greeNsortRcpp_Powersort4_insitu, 1},
-    {"_greeNsortRcpp_Powersort4_exsitu", (DL_FUNC) &_greeNsortRcpp_Powersort4_exsitu, 1},
-    {"_greeNsortRcpp_Powersort4s_insitu", (DL_FUNC) &_greeNsortRcpp_Powersort4s_insitu, 1},
-    {"_greeNsortRcpp_Powersort4s_exsitu", (DL_FUNC) &_greeNsortRcpp_Powersort4s_exsitu, 1},
-    {"_greeNsortRcpp_Skasort_insitu", (DL_FUNC) &_greeNsortRcpp_Skasort_insitu, 1},
-    {"_greeNsortRcpp_Skasort_exsitu", (DL_FUNC) &_greeNsortRcpp_Skasort_exsitu, 1},
-    {"_greeNsortRcpp_ISkasort_insitu", (DL_FUNC) &_greeNsortRcpp_ISkasort_insitu, 1},
-    {"_greeNsortRcpp_ISkasort_exsitu", (DL_FUNC) &_greeNsortRcpp_ISkasort_exsitu, 1},
-    {"_greeNsortRcpp_Timsort_insitu", (DL_FUNC) &_greeNsortRcpp_Timsort_insitu, 1},
-    {"_greeNsortRcpp_Timsort_exsitu", (DL_FUNC) &_greeNsortRcpp_Timsort_exsitu, 1},
+    {"_greeNsort_Rcpp_IPS4o_insitu", (DL_FUNC) &_greeNsort_Rcpp_IPS4o_insitu, 1},
+    {"_greeNsort_Rcpp_IPS4o_exsitu", (DL_FUNC) &_greeNsort_Rcpp_IPS4o_exsitu, 1},
+    {"_greeNsort_Rcpp_IS4o_insitu", (DL_FUNC) &_greeNsort_Rcpp_IS4o_insitu, 1},
+    {"_greeNsort_Rcpp_IS4o_exsitu", (DL_FUNC) &_greeNsort_Rcpp_IS4o_exsitu, 1},
+    {"_greeNsort_Rcpp_Learnsort_insitu", (DL_FUNC) &_greeNsort_Rcpp_Learnsort_insitu, 1},
+    {"_greeNsort_Rcpp_Learnsort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Learnsort_exsitu, 1},
+    {"_greeNsort_Rcpp_Pdqsort_insitu", (DL_FUNC) &_greeNsort_Rcpp_Pdqsort_insitu, 1},
+    {"_greeNsort_Rcpp_Pdqsort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Pdqsort_exsitu, 1},
+    {"_greeNsort_Rcpp_PdqsortB_insitu", (DL_FUNC) &_greeNsort_Rcpp_PdqsortB_insitu, 1},
+    {"_greeNsort_Rcpp_PdqsortB_exsitu", (DL_FUNC) &_greeNsort_Rcpp_PdqsortB_exsitu, 1},
+    {"_greeNsort_Rcpp_gfxTimsort_insitu", (DL_FUNC) &_greeNsort_Rcpp_gfxTimsort_insitu, 1},
+    {"_greeNsort_Rcpp_gfxTimsort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_gfxTimsort_exsitu, 1},
+    {"_greeNsort_Rcpp_Peeksort_insitu", (DL_FUNC) &_greeNsort_Rcpp_Peeksort_insitu, 1},
+    {"_greeNsort_Rcpp_Peeksort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Peeksort_exsitu, 1},
+    {"_greeNsort_Rcpp_Powersort_insitu", (DL_FUNC) &_greeNsort_Rcpp_Powersort_insitu, 1},
+    {"_greeNsort_Rcpp_Powersort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Powersort_exsitu, 1},
+    {"_greeNsort_Rcpp_Powersort4_insitu", (DL_FUNC) &_greeNsort_Rcpp_Powersort4_insitu, 1},
+    {"_greeNsort_Rcpp_Powersort4_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Powersort4_exsitu, 1},
+    {"_greeNsort_Rcpp_Powersort4s_insitu", (DL_FUNC) &_greeNsort_Rcpp_Powersort4s_insitu, 1},
+    {"_greeNsort_Rcpp_Powersort4s_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Powersort4s_exsitu, 1},
+    {"_greeNsort_Rcpp_Skasort_insitu", (DL_FUNC) &_greeNsort_Rcpp_Skasort_insitu, 1},
+    {"_greeNsort_Rcpp_Skasort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Skasort_exsitu, 1},
+    {"_greeNsort_Rcpp_ISkasort_insitu", (DL_FUNC) &_greeNsort_Rcpp_ISkasort_insitu, 1},
+    {"_greeNsort_Rcpp_ISkasort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_ISkasort_exsitu, 1},
+    {"_greeNsort_Rcpp_Timsort_insitu", (DL_FUNC) &_greeNsort_Rcpp_Timsort_insitu, 1},
+    {"_greeNsort_Rcpp_Timsort_exsitu", (DL_FUNC) &_greeNsort_Rcpp_Timsort_exsitu, 1},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_greeNsortRcpp(DllInfo *dll) {
+RcppExport void R_init_greeNsort_Rcpp(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

@@ -1,4 +1,4 @@
-Package: greeNsortRcpp
+Package: greeNsort.Rcpp
 Title: greeNsort extension interfacing C++ code
 Version: 1.0
 Date: 2024-01-21
