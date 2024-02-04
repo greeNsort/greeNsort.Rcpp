@@ -2,5 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+inst/ddd
+inst/doc
+/Meta/
 /src/*.o
 /src/*.so
+
